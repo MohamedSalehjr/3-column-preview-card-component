@@ -1,10 +1,14 @@
 * {
     margin: 0;
 }
+main{
+    display: flex;
+    flex-direction: column;
+}
 
-body{
+body {
     Font-size: 15px;
-    font-family: 'Lexend Deca' sans-serif;
+    font-family: 'Lexend Deca'sans-serif;
 }
 
 p {
@@ -15,15 +19,19 @@ p {
 
 h1 {
     color: hsl(0, 0%, 95%);
-    font-family: 'Big Shoulders Display' , sans-serif;
+    font-family: 'Big Shoulders Display', sans-serif;
     font-weight: 700;
 }
-img{
-    margin-bottom: 20px; 
+
+img {
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: hsl(0, 0%, 48%);
 }
 
 button {
-    background-color:  hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%);
     border: none;
     padding: 15px 32px;
     text-align: center;
@@ -32,6 +40,11 @@ button {
     font-size: 16px;
     border-radius: 50px;
     margin-top: 40px;
+}
+
+footer {
+    margin: auto;
+    margin-top: 20px;
 }
 
 .container {
@@ -58,4 +71,22 @@ button {
     background-color: hsl(179, 100%, 13%);
     padding: 50px;
     border-radius: 0 10px 10px 0;
+}
+
+@media (max-width: 767.98px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .sedans {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .luxury {
+        border-radius: 0 0 10px 10px;
+    }
 }

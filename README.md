@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/solution-built-with-html-css-and-flexbox-RwO89R1Tm]
 - Live Site URL: [https://mohamedsalehjr.github.io/3-column-preview-card-component/]
 
 
@@ -42,6 +42,6 @@ Users should be able to:
 ## Author
 
 - Website - [https://mohamedsalehdev.info/]
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [https://www.frontendmentor.io/profile/MohamedSalehjr]
 
 
